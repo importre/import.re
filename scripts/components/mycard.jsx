@@ -24,7 +24,7 @@ let MyCard = React.createClass({
     return {
       name: 'Jaewe Heo',
       nickname: 'importre',
-      photo: 'https://avatars1.githubusercontent.com/u/1744446'
+      photo: 'images/importre.jpeg'
     }
   },
 
