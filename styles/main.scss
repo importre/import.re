@@ -1,0 +1,10 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.topbottom{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
