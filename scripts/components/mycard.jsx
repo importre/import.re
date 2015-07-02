@@ -31,15 +31,18 @@ let MyCard = React.createClass({
               <List subheader="Work">
                 <ListItem leftIcon={<i className="material-icons">work</i>}
                           secondaryText={"Software Engineer / Co-founder"}
-                          secondaryTextLines={2} href="http://riiid.co">
+                          href="http://riiid.co">
                   Riiid!
+                </ListItem>
+                <ListItem leftIcon={<i className="material-icons">location_on</i>}>
+                  Seoul, Korea
                 </ListItem>
               </List>
 
               <ListDivider/>
 
               <List subheader="Contact">
-                <ListItem leftIcon={<i className="material-icons">star</i>}
+                <ListItem leftIcon={<i className="material-icons">adb</i>}
                           href="https://github.com/importre">Github</ListItem>
                 <ListItem insetChildren={true}
                           href="https://facebook.com/importre">Facebook</ListItem>
