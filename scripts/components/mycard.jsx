@@ -22,7 +22,7 @@ let MyCard = React.createClass({
     return (
       <div className="container">
         <Row className="topbottom">
-          <Col smOffset={4} sm={4}>
+          <Col smOffset={3} sm={6} mdOffset={4} md={4}>
             <Card>
               <CardMedia
                 overlay={<CardTitle title={"Jaewe Heo"} subtitle={"importre"}/>}>
@@ -37,6 +37,7 @@ let MyCard = React.createClass({
               </List>
 
               <ListDivider/>
+
               <List subheader="Contact">
                 <ListItem leftIcon={<i className="material-icons">star</i>}
                           href="https://github.com/importre">Github</ListItem>
