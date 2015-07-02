@@ -37,7 +37,7 @@ let MyCard = React.createClass({
               </List>
 
               <ListDivider/>
-              <List subheader="Social">
+              <List subheader="Contact">
                 <ListItem leftIcon={<i className="material-icons">star</i>}
                           href="https://github.com/importre">Github</ListItem>
                 <ListItem insetChildren={true}

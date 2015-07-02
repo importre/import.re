@@ -3,8 +3,14 @@
 }
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
-.topbottom{
+.topbottom {
   margin-top: 4%;
   margin-bottom: 4%;
 }
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
