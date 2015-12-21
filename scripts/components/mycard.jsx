@@ -42,7 +42,9 @@ let MyCard = React.createClass({
               <ListDivider/>
 
               <List subheader="Contact">
-                <ListItem leftIcon={<i className="material-icons">adb</i>}
+                <ListItem leftIcon={<i className="material-icons">contacts</i>}
+                          href="http://blog.import.re">Blog</ListItem>
+                <ListItem insetChildren={true}
                           href="https://github.com/importre">Github</ListItem>
                 <ListItem insetChildren={true}
                           href="https://facebook.com/importre">Facebook</ListItem>
